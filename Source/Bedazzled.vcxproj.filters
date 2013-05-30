@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated\Debug">
+      <UniqueIdentifier>{6d800566-1ba6-41ab-a530-bd01af00cb3d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated\Release">
+      <UniqueIdentifier>{05fb054f-93b0-46fb-9041-e52fd0b5cef9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{09a71f98-5900-4f62-b051-535e1af90837}</UniqueIdentifier>
+      <Extensions>h;cc;ui</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{bac7173d-f5e1-4246-b245-02d7f46122d4}</UniqueIdentifier>
+      <Extensions>h;cc</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Generated\ui_DlgAbout.h">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="Screen.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WndOverlay.cc">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAbout.cc">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\qrc_Resources.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="Analyzer.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Debug\moc_DlgAbout.cpp">
+      <Filter>Generated\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Debug\moc_WndOverlay.cpp">
+      <Filter>Generated\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Release\moc_WndOverlay.cpp">
+      <Filter>Generated\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Release\moc_DlgAbout.cpp">
+      <Filter>Generated\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="WndDisplay.cc">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Debug\moc_WndDisplay.cpp">
+      <Filter>Generated\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Release\moc_WndDisplay.cpp">
+      <Filter>Generated\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cc" />
+    <ClCompile Include="Bedazzled.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Debug\moc_Bedazzled.cpp">
+      <Filter>Generated\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Release\moc_Bedazzled.cpp">
+      <Filter>Generated\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Debug\moc_Solver.cpp">
+      <Filter>Generated\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Release\moc_Solver.cpp">
+      <Filter>Generated\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Debug\moc_Analyzer.cpp">
+      <Filter>Generated\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Generated\Release\moc_Analyzer.cpp">
+      <Filter>Generated\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cc">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DlgAbout.ui">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resources.qrc" />
+    <CustomBuild Include="DlgAbout.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WndOverlay.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WndDisplay.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Bedazzled.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Solver.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Analyzer.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Board.h">
+      <Filter>Model</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>

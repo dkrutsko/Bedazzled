@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/About1.png</file>
+        <file>Images/About2.png</file>
+        <file>Images/GemBlack.png</file>
+        <file>Images/GemBlue.png</file>
+        <file>Images/GemGold.png</file>
+        <file>Images/GemGreen.png</file>
+        <file>Images/GemPurple.png</file>
+        <file>Images/GemRed.png</file>
+        <file>Images/Header1.png</file>
+        <file>Images/Header2.png</file>
+        <file>Images/Header3.png</file>
+    </qresource>
+</RCC>

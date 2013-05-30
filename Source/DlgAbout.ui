@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgAbout</class>
+ <widget class="QMainWindow" name="DlgAbout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>210</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>About</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#WidgetMain
+{
+	background: rgb(40, 40, 40);
+}
+
+#LabelTitle
+{
+	font: bold 18pt &quot;Segoe UI&quot;;
+	color: rgb(200, 200, 200);
+}
+
+#LabelVersion
+{
+	font: 11pt &quot;Segoe UI&quot;;
+	color: rgb(220, 220, 220);
+}
+
+#LabelAuthor
+{
+	font: 10pt &quot;Segoe UI&quot;;
+	color: rgb(160, 160, 160);
+}</string>
+  </property>
+  <widget class="QWidget" name="WidgetMain">
+   <layout class="QGridLayout" name="LayoutMain">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>12</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="LabelHeader"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QWidget" name="WidgetCenter" native="true">
+      <layout class="QGridLayout" name="LayoutCenter">
+       <property name="leftMargin">
+        <number>12</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>12</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="horizontalSpacing">
+        <number>12</number>
+       </property>
+       <property name="verticalSpacing">
+        <number>0</number>
+       </property>
+       <item row="0" column="0" rowspan="2">
+        <widget class="QLabel" name="LabelIcon">
+         <property name="minimumSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>48</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="Resources.qrc">:/Images/About2.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LabelTitle">
+         <property name="text">
+          <string>BEDAZZLED</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LabelVersion"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="LabelAuthor">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Portions property of Activision Blizzard&lt;br/&gt;Copyright (C) 2011-2013 David Krutsko&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
