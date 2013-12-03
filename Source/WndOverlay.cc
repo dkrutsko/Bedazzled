@@ -62,7 +62,7 @@ WndOverlay::WndOverlay (Board* board, Bedazzled* b, QWidget* parent)
 	layout->setContentsMargins (0, 0, 0, 0);
 
 	// Setup the graphics scene and view
-	vScene = new QGraphicsScene (rect());
+	vScene = new QGraphicsScene (rect(), this);
 	vView = new QGraphicsView (vScene, widget);
 	vView->setStyleSheet ("border: none; background: transparent;");
 

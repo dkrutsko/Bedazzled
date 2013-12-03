@@ -114,7 +114,7 @@ void WndDisplay::SetupView (void)
 	layout->setContentsMargins (0, 0, 0, 0);
 
 	// Setup the graphics scene and view
-	vScene = new QGraphicsScene (rect());
+	vScene = new QGraphicsScene (rect(), this);
 	vScene->setBackgroundBrush (Qt::black);
 	vView = new QGraphicsView (vScene, widget);
 	vView->setStyleSheet ("border: none;");
